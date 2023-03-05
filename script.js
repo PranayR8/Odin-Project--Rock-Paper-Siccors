@@ -16,7 +16,7 @@ function getComputerChoice(){
 }
 
 function playerSelection(){
-    let userSelection = prompt("Please pick Rock, Paper of Scissor")
+    //let userSelection = prompt("Please pick Rock, Paper of Scissor")
     userSelection = userSelection.toLowerCase();
     if(userSelection != "rock" && userSelection != "paper" && userSelection != "scissor"){
         console.log("Incorret input. Please try again")
@@ -51,9 +51,9 @@ function playRound(player, computer){
 }
 
 function game(){
-    for (round = 0; round < 5; round++){
+    /*for (round = 0; round < 5; round++){
         console.log(playRound(playerSelection(), getComputerChoice()))
-    }
+    }*/
     if (playerScore >= 3){
         console.log("Player wins the game!!!") 
     }
@@ -64,4 +64,62 @@ function game(){
 
 
 
-game()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// const rock = document.querySelector("rockUI");
+// // var paperUI = document.getElementById("paper");
+// // var scissorUI = document.getElementById("scissor");
+
+// rock.addEventListener("click", () => {
+//     console.log("rock");
+// });
+
+
+// const rock = document.getElementById("rockUI");
+// rock.addEventListener("click", function() {
+//     console.log("hi");
+//     userSelection = "rock"
+
+// });
+
+
+
+
+
+
+
+
+// const element = document.getElementsById("rock");
+
+// element.addEventListener("click", myFunction1);
+// paper.addEventListener("click", myFunction2);
+// scissor.addEventListener("click", myFunction3);
+
+// function myFunction1() {
+//   document.getElementById("demo").innerHTML = "rock";
+//   console.log("rockk")
+// }
+
+
+
+
+
+
+
+
+
+
+//game()
